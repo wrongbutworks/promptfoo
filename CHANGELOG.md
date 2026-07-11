@@ -6,25 +6,23 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/).
 
 ## [0.121.19](https://github.com/promptfoo/promptfoo/compare/0.121.18...0.121.19) (2026-07-11)
 
-
 ### Features
 
-* **providers:** honor CLAUDE_CONFIG_DIR for Claude Code creds ([#9980](https://github.com/promptfoo/promptfoo/issues/9980)) ([a643f8b](https://github.com/promptfoo/promptfoo/commit/a643f8b8e13a93e89f1da229e3b77db3927bdf55))
-* **providers:** support GPT-5.6 GA ([#10040](https://github.com/promptfoo/promptfoo/issues/10040)) ([3280625](https://github.com/promptfoo/promptfoo/commit/32806255bfb2685ea8e01a72bca8420746ba341c))
-
+- **providers:** honor CLAUDE_CONFIG_DIR for Claude Code creds ([#9980](https://github.com/promptfoo/promptfoo/issues/9980)) ([a643f8b](https://github.com/promptfoo/promptfoo/commit/a643f8b8e13a93e89f1da229e3b77db3927bdf55))
+- **providers:** support GPT-5.6 GA ([#10040](https://github.com/promptfoo/promptfoo/issues/10040)) ([3280625](https://github.com/promptfoo/promptfoo/commit/32806255bfb2685ea8e01a72bca8420746ba341c))
 
 ### Bug Fixes
 
-* **assertions:** allow numeric 0 as contains/icontains value ([#10012](https://github.com/promptfoo/promptfoo/issues/10012)) ([06d8105](https://github.com/promptfoo/promptfoo/commit/06d8105dcaa27df9327dc30f9f77e5c53510ddf1))
-* **code-scan:** harden action supply chain ([#9991](https://github.com/promptfoo/promptfoo/issues/9991)) ([17e90eb](https://github.com/promptfoo/promptfoo/commit/17e90eb9641f935aebb34663560fcee1b90c62bc))
-* **db:** protect user database from test runners ([#9590](https://github.com/promptfoo/promptfoo/issues/9590)) ([aabb699](https://github.com/promptfoo/promptfoo/commit/aabb69901b28b49eef8618ceb07b3a6d3dec4744))
-* **deps:** update anthropic packages ([#10037](https://github.com/promptfoo/promptfoo/issues/10037)) ([fed1d2a](https://github.com/promptfoo/promptfoo/commit/fed1d2accd8d6fffd2ceedaa6cf8ab7700290dcf))
-* **matchers:** count missing faithfulness verdicts as unsupported ([#9984](https://github.com/promptfoo/promptfoo/issues/9984)) ([ce4a3d3](https://github.com/promptfoo/promptfoo/commit/ce4a3d38c24b3bd3af4b1d134a6962dd06ced2b3))
-* **matchers:** preserve reserved rag grader vars ([#9994](https://github.com/promptfoo/promptfoo/issues/9994)) ([6e9e2ee](https://github.com/promptfoo/promptfoo/commit/6e9e2ee6471415deff58d6ed22fb5010ef4d10a1))
-* **providers:** correct Codex SDK provider config handling ([#9963](https://github.com/promptfoo/promptfoo/issues/9963)) ([a311483](https://github.com/promptfoo/promptfoo/commit/a3114835a073fe14427d648fe11be094aae06fbe))
-* **providers:** guard array access in Bedrock Titan and Cohere output handlers ([#9897](https://github.com/promptfoo/promptfoo/issues/9897)) ([9a2aa85](https://github.com/promptfoo/promptfoo/commit/9a2aa85d13120a4d0aba6e064d3c88acd486a47c))
-* **providers:** handle TrueFoundry guardrail blocks ([#10021](https://github.com/promptfoo/promptfoo/issues/10021)) ([a9cfc86](https://github.com/promptfoo/promptfoo/commit/a9cfc86ad2dd7807e10e9858d961855c70fd705c))
-* **providers:** preserve TrueFoundry filter errors ([#10027](https://github.com/promptfoo/promptfoo/issues/10027)) ([051914a](https://github.com/promptfoo/promptfoo/commit/051914a620c26059befb0712ad23de87d30052c1))
+- **assertions:** allow numeric 0 as contains/icontains value ([#10012](https://github.com/promptfoo/promptfoo/issues/10012)) ([06d8105](https://github.com/promptfoo/promptfoo/commit/06d8105dcaa27df9327dc30f9f77e5c53510ddf1))
+- **code-scan:** harden action supply chain ([#9991](https://github.com/promptfoo/promptfoo/issues/9991)) ([17e90eb](https://github.com/promptfoo/promptfoo/commit/17e90eb9641f935aebb34663560fcee1b90c62bc))
+- **db:** protect user database from test runners ([#9590](https://github.com/promptfoo/promptfoo/issues/9590)) ([aabb699](https://github.com/promptfoo/promptfoo/commit/aabb69901b28b49eef8618ceb07b3a6d3dec4744))
+- **deps:** update anthropic packages ([#10037](https://github.com/promptfoo/promptfoo/issues/10037)) ([fed1d2a](https://github.com/promptfoo/promptfoo/commit/fed1d2accd8d6fffd2ceedaa6cf8ab7700290dcf))
+- **matchers:** count missing faithfulness verdicts as unsupported ([#9984](https://github.com/promptfoo/promptfoo/issues/9984)) ([ce4a3d3](https://github.com/promptfoo/promptfoo/commit/ce4a3d38c24b3bd3af4b1d134a6962dd06ced2b3))
+- **matchers:** preserve reserved rag grader vars ([#9994](https://github.com/promptfoo/promptfoo/issues/9994)) ([6e9e2ee](https://github.com/promptfoo/promptfoo/commit/6e9e2ee6471415deff58d6ed22fb5010ef4d10a1))
+- **providers:** correct Codex SDK provider config handling ([#9963](https://github.com/promptfoo/promptfoo/issues/9963)) ([a311483](https://github.com/promptfoo/promptfoo/commit/a3114835a073fe14427d648fe11be094aae06fbe))
+- **providers:** guard array access in Bedrock Titan and Cohere output handlers ([#9897](https://github.com/promptfoo/promptfoo/issues/9897)) ([9a2aa85](https://github.com/promptfoo/promptfoo/commit/9a2aa85d13120a4d0aba6e064d3c88acd486a47c))
+- **providers:** handle TrueFoundry guardrail blocks ([#10021](https://github.com/promptfoo/promptfoo/issues/10021)) ([a9cfc86](https://github.com/promptfoo/promptfoo/commit/a9cfc86ad2dd7807e10e9858d961855c70fd705c))
+- **providers:** preserve TrueFoundry filter errors ([#10027](https://github.com/promptfoo/promptfoo/issues/10027)) ([051914a](https://github.com/promptfoo/promptfoo/commit/051914a620c26059befb0712ad23de87d30052c1))
 
 ## [0.121.18](https://github.com/promptfoo/promptfoo/compare/0.121.17...0.121.18) (2026-07-07)
 
